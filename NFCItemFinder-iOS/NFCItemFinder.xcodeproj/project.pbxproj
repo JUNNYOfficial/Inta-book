@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1F66CBF4B0E454A8938409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52AF0CCCD1201CA4682A9E /* ContentView.swift */; };
+		5332A8392A312CEF895DE136 /* NFCItemFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2826DDACFE03C0B3D708DBE /* NFCItemFinderApp.swift */; };
+		5B01974659DEB740B85702A0 /* LendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D236710FADC9A25540F9F8 /* LendView.swift */; };
+		7B95262A0A602C9826C9AAEA /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B484FFD209BD38D1657A3C2 /* AlertsView.swift */; };
+		814D2A75A3F834C11AE06D77 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655AE5930753C2A15BA684C /* SettingsView.swift */; };
+		81F4AD93A366E877F057ACDF /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505DA84B80F8BFFE61410A0 /* AddItemView.swift */; };
+		880E99AEEF0CD717897B11CC /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03089A0A2751711CE74F171A /* ItemStore.swift */; };
+		9A7EA76672DF9BF9B5B40176 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4D59BFAC0D82807C66123 /* ItemDetailView.swift */; };
+		A5C9FE08E09613BF634EE409 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA6F11DBFFD83305D61815 /* Item.swift */; };
+		C6B4E509445F5BD54C518B5A /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390CB4C2F43657EB614D6109 /* ScanView.swift */; };
+		E1F58DFA38937E7B8C00E40B /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E5269F9684EC023AF74F57 /* NFCManager.swift */; };
+		F0B98BD168601BAF8F161F5A /* WriteTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA9FBC6A8AE31F2EA958B9B /* WriteTagView.swift */; };
+		F7923947BE8E00FEA3D1939A /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3221B65C93C3FF03B402A /* ItemListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03089A0A2751711CE74F171A /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		1505DA84B80F8BFFE61410A0 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		26D236710FADC9A25540F9F8 /* LendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendView.swift; sourceTree = "<group>"; };
+		2EE3221B65C93C3FF03B402A /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		390CB4C2F43657EB614D6109 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		5641497594F00DFAC0B1F20B /* NFCItemFinder.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NFCItemFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E5269F9684EC023AF74F57 /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+		7655AE5930753C2A15BA684C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7B484FFD209BD38D1657A3C2 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		BDA9FBC6A8AE31F2EA958B9B /* WriteTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTagView.swift; sourceTree = "<group>"; };
+		BF52AF0CCCD1201CA4682A9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2826DDACFE03C0B3D708DBE /* NFCItemFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCItemFinderApp.swift; sourceTree = "<group>"; };
+		D3BA6F11DBFFD83305D61815 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E4C4D59BFAC0D82807C66123 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		62F711B2A14348596D7BEF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5641497594F00DFAC0B1F20B /* NFCItemFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8D36854814187EB7D9B3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1505DA84B80F8BFFE61410A0 /* AddItemView.swift */,
+				7B484FFD209BD38D1657A3C2 /* AlertsView.swift */,
+				BF52AF0CCCD1201CA4682A9E /* ContentView.swift */,
+				E4C4D59BFAC0D82807C66123 /* ItemDetailView.swift */,
+				2EE3221B65C93C3FF03B402A /* ItemListView.swift */,
+				26D236710FADC9A25540F9F8 /* LendView.swift */,
+				390CB4C2F43657EB614D6109 /* ScanView.swift */,
+				7655AE5930753C2A15BA684C /* SettingsView.swift */,
+				BDA9FBC6A8AE31F2EA958B9B /* WriteTagView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		834C5F875BE7FB7DFB6845C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				56E5269F9684EC023AF74F57 /* NFCManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DACB0206DD4CE25372B215F4 = {
+			isa = PBXGroup;
+			children = (
+				E5BEA939693678EDEFA4D1F0 /* Models */,
+				834C5F875BE7FB7DFB6845C8 /* Services */,
+				66E8D36854814187EB7D9B3B /* Views */,
+				D2826DDACFE03C0B3D708DBE /* NFCItemFinderApp.swift */,
+				62F711B2A14348596D7BEF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BEA939693678EDEFA4D1F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3BA6F11DBFFD83305D61815 /* Item.swift */,
+				03089A0A2751711CE74F171A /* ItemStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00F5D2B6C72DFBD0D41BFBD /* NFCItemFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF4A1D47BBDC0EB0780F421 /* Build configuration list for PBXNativeTarget "NFCItemFinder" */;
+			buildPhases = (
+				2D48E1B6877ADD8337240517 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCItemFinder;
+			packageProductDependencies = (
+			);
+			productName = NFCItemFinder;
+			productReference = 5641497594F00DFAC0B1F20B /* NFCItemFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BE8D5E6C68AD79CDC950F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B00F5D2B6C72DFBD0D41BFBD = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C953F2D7771AA3183F7F11CB /* Build configuration list for PBXProject "NFCItemFinder" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DACB0206DD4CE25372B215F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62F711B2A14348596D7BEF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00F5D2B6C72DFBD0D41BFBD /* NFCItemFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D48E1B6877ADD8337240517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F4AD93A366E877F057ACDF /* AddItemView.swift in Sources */,
+				7B95262A0A602C9826C9AAEA /* AlertsView.swift in Sources */,
+				2C1F66CBF4B0E454A8938409 /* ContentView.swift in Sources */,
+				A5C9FE08E09613BF634EE409 /* Item.swift in Sources */,
+				9A7EA76672DF9BF9B5B40176 /* ItemDetailView.swift in Sources */,
+				F7923947BE8E00FEA3D1939A /* ItemListView.swift in Sources */,
+				880E99AEEF0CD717897B11CC /* ItemStore.swift in Sources */,
+				5B01974659DEB740B85702A0 /* LendView.swift in Sources */,
+				5332A8392A312CEF895DE136 /* NFCItemFinderApp.swift in Sources */,
+				E1F58DFA38937E7B8C00E40B /* NFCManager.swift in Sources */,
+				C6B4E509445F5BD54C518B5A /* ScanView.swift in Sources */,
+				814D2A75A3F834C11AE06D77 /* SettingsView.swift in Sources */,
+				F0B98BD168601BAF8F161F5A /* WriteTagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B2ACB0F0038B3912F29AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCItemFinder.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "此应用需要读取 NFC 标签以识别物品位置和状态";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfcitemfinder.app;
+				PRODUCT_MODULE_NAME = NFCItemFinder;
+				PRODUCT_NAME = NFCItemFinder;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		6E01668A25F87279C731493E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NFCItemFinder.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "此应用需要读取 NFC 标签以识别物品位置和状态";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfcitemfinder.app;
+				PRODUCT_MODULE_NAME = NFCItemFinder;
+				PRODUCT_NAME = NFCItemFinder;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D4F02ADF27CF16273579ABC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9AC1BC9F9C462CD539C684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C953F2D7771AA3183F7F11CB /* Build configuration list for PBXProject "NFCItemFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9AC1BC9F9C462CD539C684 /* Debug */,
+				D4F02ADF27CF16273579ABC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDF4A1D47BBDC0EB0780F421 /* Build configuration list for PBXNativeTarget "NFCItemFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ACB0F0038B3912F29AFE7 /* Debug */,
+				6E01668A25F87279C731493E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BE8D5E6C68AD79CDC950F9 /* Project object */;
+}

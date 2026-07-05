@@ -1,0 +1,63 @@
+name: NFCItemFinder
+options:
+  bundleIdPrefix: com.nfcitemfinder
+  deploymentTarget:
+    iOS: "15.0"
+  developmentLanguage: zh-Hans
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGNING_ALLOWED: NO
+configs:
+  Debug: debug
+  Release: release
+targets:
+  NFCItemFinder:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: NFCItemFinderApp.swift
+      - path: Models
+      - path: Services
+      - path: Views
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: NFC物品查找
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchScreen:
+          UIColorName: ""
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NFCReaderUsageDescription: 此应用需要读取 NFC 标签以识别物品位置和状态
+        NSSupportsAutomaticTermination: true
+    entitlements:
+      path: NFCItemFinder.entitlements
+      properties:
+        com.apple.developer.nfc.readersession.formats:
+          - NDEF
+          - TAG
+    settings:
+      base:
+        PRODUCT_NAME: NFCItemFinder
+        PRODUCT_BUNDLE_IDENTIFIER: com.nfcitemfinder.app
+        PRODUCT_MODULE_NAME: NFCItemFinder
+        INFOPLIST_KEY_NFCReaderUsageDescription: 此应用需要读取 NFC 标签以识别物品位置和状态
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        ENABLE_PREVIEWS: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_ENTITLEMENTS: NFCItemFinder.entitlements
